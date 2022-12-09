@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Program to print sizes of types
+ *
+ * Return: Always 0 (Successful)
+ */
+
 int main(void)
 {
 	char a;
