@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Program to print combination of 2 digits,
- * the second always larger than the first
+ * main - Program to print combination of 3 digits,
+ * the third always larger than the second which in
+ * turn is always larger than the first
  *
  * Return: Always 0 (Successful)
  */
