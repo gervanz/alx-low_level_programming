@@ -15,12 +15,12 @@ int print_sign(int n)
 
 	if (n == 0)
 	{
-		dir = 1;
+		dir = 0;
 		_putchar('0');
 	}
 	else if (n > 0)
 	{
-		dir = 0;
+		dir = 1;
 		_putchar('+');
 	}
 	else
