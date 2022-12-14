@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - Print from argument to 98
+ * @n: Starting number
  *
  * Return: 0
  */
