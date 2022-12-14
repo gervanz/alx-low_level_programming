@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
+ * main - Program to add all multiples of 3 and 5 below 1024
  *
- *
- *
+ * Return: 0
  */
 
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 		}
 	}
 
-	printf("%d", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
