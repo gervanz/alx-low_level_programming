@@ -11,17 +11,21 @@
 int main(void)
 {
 	int i;
-	long long int a = 1, b = 2, backsum;
+	long int fib[50];
 
-	backsum = a + b;
+	fib[0] = 1;
+	fib[1] = 2;
 
-	printf("%lld, %lld", a, b);
+	printf("%ld, %ld", fib[0], fib[1]);
 
-	for (i = 0; i <= 50; i++)
+	for (i = 2; i < 50; i++)
 	{
-		a = b;
-		b = backsum;
-		backsum = a + b;
+		fib[i] = fib[i - 1] + fib[i - 2];
 
-		printf(", %lld", backsum);
+		printf(", %ld", fib[i]);
+	}
+
+	printf("\n");
+
+	return (0);
 }
