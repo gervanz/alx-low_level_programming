@@ -10,23 +10,23 @@
 
 int main(void)
 {
-	int i;
+	int sum = 0, i;
 	long int fib[50];
 
 	fib[0] = 1;
 	fib[1] = 2;
 
-	printf("%ld, %ld", fib[0], fib[1]);
+	sum += fib[1];
 
 	for (i = 2; i < 50; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 
-		if (fib[i] > 4000000)
-			break;
-		else if (fib[i] % 2 == 0)
-			printf(", %ld", fib[i]);
+		if ((fib[i] < 4000000) && (fib[i] % 2 == 0))
+			sum += fib[i];
 	}
+
+	printf("%d\n", sum);
 
 	printf("\n");
 
