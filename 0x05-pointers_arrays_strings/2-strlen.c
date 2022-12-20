@@ -4,7 +4,7 @@
 /**
  * _strlen - Return the length of string
  *
- * @*s: Pointer to string
+ * @s: Pointer to string
  *
  * Return: Length of string
  */
