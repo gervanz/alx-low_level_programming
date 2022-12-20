@@ -18,9 +18,9 @@ void puts2(char *str)
 	/* Loop through the string array till get last index */
 	while (str[len] != '\0')
 		len++;
-	
+
 	/* Print every 2-index characters */
-	for (i = 0; i < len; i+=2)
+	for (i = 0; i < len; i += 2)
 	{
 		_putchar(str[i]);
 	}
