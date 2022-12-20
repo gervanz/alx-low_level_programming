@@ -4,7 +4,7 @@
 /**
  * print_rev - Print a string in reverse
  *
- * @s - String array
+ * @s: String array
  *
  * Return: Void
  */
