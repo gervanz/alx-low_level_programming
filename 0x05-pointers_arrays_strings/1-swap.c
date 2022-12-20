@@ -18,7 +18,7 @@ void swap_int(int *a, int *b)
 	/**
 	 * Move value to placeholder, move second value to first variable,
 	 * then move placeholder value to second variable
-	 * */
+	 */
 	x = *a;
 	*a = *b;
 	*b = x;
