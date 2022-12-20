@@ -24,7 +24,7 @@ void print_array(int *a, int n)
 			printf("%d", a[len]);
 
 			/* Print comma and space after elements except last */
-			if (len < n-1)
+			if (len < (n - 1))
 				printf(", ");
 		}
 	}
