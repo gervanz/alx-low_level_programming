@@ -19,9 +19,10 @@ void print_rev(char *s)
 		len++;
 
 	/* Print string from highest index, decreasing index value */
-	for (; len >= 0; len--)
+	while (len)
 	{
-		_putchar(s[len]);
+		_putchar(s[len - 1]);
+		len--;
 	}
 
 	_putchar('\n');
