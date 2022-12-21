@@ -22,16 +22,16 @@ void puts_half(char *str)
 	 * Check if length is odd, print half minus middle character
 	 * If not, print characters from halfway through the string
 	 */
-	 if (len % 2 == 0)
-		 for (i = len / 2; i < len; i++)
-		 {
-			 _putchar(str[i]);
-		 }
-	 else
-		 for (i = (len + 1) / 2; i < len; i++)
-                 {
-                         _putchar(str[i]);
-                 }
+	if (len % 2 == 0)
+		for (i = len / 2; i < len; i++)
+		{
+			_putchar(str[i]);
+		}
+	else
+		for (i = (len + 1) / 2; i < len; i++)
+		{
+			_putchar(str[i]);
+		}
 
 	/* Print new line */
 	_putchar('\n');
