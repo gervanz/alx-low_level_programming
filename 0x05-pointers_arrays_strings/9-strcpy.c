@@ -14,13 +14,20 @@
 
 char *_strcpy(char *dest, char *src)
 {
+	/* Initialise length-getter and loop variables */
 	int len = 0, i = 0;
 
+	/* Loop through string array to get length of string */
 	while (src[len] != '\0')
 		len++;
 
+	/**
+	 * Loop through source string, coping index value to
+	 * corresponding destination index +1 for null terminator
+	 */
 	for (; i <= len; i++)
 		dest[i] = src[i];
 
+	/* Return destination string */
 	return (dest);
 }
