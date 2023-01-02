@@ -42,6 +42,11 @@ char *cap_string(char *str)
 
 	while (new[j])
 	{
+		if (new[j + 1] >= 'a' && new[j + 1] <= 'z')
+		{
+			new[j + 1] -= 32;
+		}
+
 		if (check_sep(new[j]) && (new[j + 1] >= 'a' && new[j + 1] <= 'z'))
 		{
 			new[j + 1] -= 32;
