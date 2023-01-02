@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strncmp - Compares to string and returns difference
+ * _strcmp - Compares to string and returns difference
  * between first difference
  *
  * @s1: First String
