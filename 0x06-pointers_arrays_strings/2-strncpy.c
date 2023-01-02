@@ -5,7 +5,7 @@
  * _strncpy - Copies a string
  *
  * @dest: String to be copied to
- * @str: String t copy from
+ * @src: String t copy from
  * @n: Number of bytes
  *
  * Return: Pointer to copied string
