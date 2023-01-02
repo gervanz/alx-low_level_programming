@@ -12,7 +12,9 @@
 int check_sep(char chr)
 {
 	int i = 0;
-	char seperators[15] = { ' ', '\n', '\t', '.', ',', ';', '!', '?', '"', '(', ')', '{', '}' };
+	char seperators[15] = { ' ', '\n', '\t',
+		'.', ',', ';', '!', '?',
+		'"', '(', ')', '{', '}' };
 
 	for (; i < 13; i++)
 	{
@@ -20,7 +22,7 @@ int check_sep(char chr)
 			return (1);
 	}
 
-	return(0);
+	return (0);
 }
 
 
