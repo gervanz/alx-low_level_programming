@@ -4,7 +4,7 @@
 /**
  * _strncat - Concatenates two strings
  *
- * @dest: String to be concatenated to 
+ * @dest: String to be concatenated to
  * @src: String to concatenate
  * @n: Number of bytes of @dest
  *
