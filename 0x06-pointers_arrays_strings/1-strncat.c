@@ -4,9 +4,9 @@
 /**
  * _strncat - Concatenates two strings
  *
- * @dest: 
- * @src:
- * @n:
+ * @dest: String to be concatenated to 
+ * @src: String to concatenate
+ * @n: Number of bytes of @dest
  *
  * Return: Pointer to concatenated string
  */
