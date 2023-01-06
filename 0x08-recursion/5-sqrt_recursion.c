@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * sqrt_recursion - Returns natural square root
+ * _sqrt_recursion - Returns natural square root
  *
  * @n: Number to be square-rooted
  *
@@ -13,17 +13,27 @@ int _sqrt_recursion(int n)
 {
 	int i = 1;
 
-	if (n < 1)
+	if (n < 0)
 		return (-1);
 
-	if (n == 1)
-		return (1);
+	return (_sqrt(i, n));
+}
 
-	for (; i < (n / 2); i++)
-	{
-		if ((i * i) == n)
-			return (i);
-	}
+/**
+ * _sqrt - Increments i up to n/2 till square root is found
+ *
+ * @i: increasing number
+ * @n: square number
+ *
+ * Return: Natural square root. -1 if none
+ */
 
-	return (-1);
+int _sqrt(int i, int n)
+{
+	if (i > (n / 2))
+		return (-1);
+	else if (i * i == n)
+		return (i);
+
+	return (_sqrt(i + 1, n));
 }
