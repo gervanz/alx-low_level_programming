@@ -11,5 +11,8 @@
 
 int _atoi(char *s)
 {
+	while (*s)
+		s++;
+
 	return (1);
 }

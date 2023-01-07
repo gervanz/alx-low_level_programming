@@ -12,5 +12,10 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+	while (*haystack)
+		haystack++;
+	while (*needle)
+		needle++;
+
 	return ("1");
 }
