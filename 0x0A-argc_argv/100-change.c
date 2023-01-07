@@ -15,12 +15,10 @@
 int main(int argc, char *argv[])
 {
 	int amount, coins = 0;
-	/*int val[5] = {25, 10, 5, 2, 1};*/
 
 	if (argc == 2)
 	{
 		amount = atoi(argv[1]);
-
 		if (amount < 0)
 			printf("%d\n", 0);
 		if ((amount % 25) >= 0)
